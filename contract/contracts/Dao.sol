@@ -5,7 +5,7 @@ import "./libraries/Events.sol";
 import "./libraries/Errors.sol";
 import "./interfaces/IERC20.sol";
 
-/// @title  This contract serves as a DAO that validates and approves all property listings, potentially enabling a layered approval procedure..
+/// @title  This contracts serves as a DAO that validates and approves all property listings, potentially enabling a layered approval procedure..
 
 contract Dao {
     //The address of the superior in the land and ministry administration who will provide the initial approval.

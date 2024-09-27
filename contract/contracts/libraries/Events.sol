@@ -11,7 +11,7 @@ library EVENTS {
         uint indexed tokenId,
         uint indexed price
     );
-    //The `NewProposal` event records the submission of new proposals for real estate transactions.
+    //The `NewProposals` event records the submission of new proposals for real estate transactions.
     event NewProposal(
         address indexed from,
         uint indexed estateId,
