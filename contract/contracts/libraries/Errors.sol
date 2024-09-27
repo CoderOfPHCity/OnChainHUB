@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 /// @title Custom Errors
-/// @author This library manages error handling for the real estate contract.
+/// @author This library manages error handling for the real estate contract
 
 library ERRORS {
     //This error is thrown when a function call is made by a user who does not have the necessary permissions to perform the action.
