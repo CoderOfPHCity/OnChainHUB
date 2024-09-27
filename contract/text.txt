@@ -1,0 +1,102 @@
+duplicate definition - DiamondCut((address,uint8,bytes4[])[],address,bytes)
+DiamondCutFacet deployed: 0x8D3C686281d2d71CB7d9E600aBE9Ed9C97744e62
+DiamondInit deployed: 0x81715766D5699a3887ae0899A8cE79393243b0d7
+Deployed erc20 token at 0x01091032DdCCf27B966607C5e773f2994717d39F
+Deployed erc721 token at 0x266c8277Cbe445C64398c111813027e8C35A3bEA
+------------------------------------------------
+Deploying facets
+DiamondLoupeFacet deployed: 0xfAce9c66861b2255357a7DA6eF499Ee56439ce45
+[
+  'facetAddress(bytes4)',
+  'facetAddresses()',
+  'facetFunctionSelectors(address)',
+  'facets()',
+  'supportsInterface(bytes4)'
+]
+OwnershipFacet deployed: 0x8b9af1a43020FDFF874DD21C816d4da17cAc0f58
+[ 'owner()', 'transferOwnership(address)' ]
+RealEstate deployed: 0x23Bf83329B193E68cE2Aad03af199c549fa3Ce2a
+[
+  'bulkUpdate((string,uint256)[])',
+  'checkIfApprovedERC20Token(uint256,address)',
+  'checkIfApprovedERC721Token(uint256)',
+  'createListing(string,address,string,uint24,string,uint256,string,string)',
+  'getErc20Token()',
+  'getEstateSigner(address,uint256)',
+  'getListing(uint256)',
+  'getListings()',
+  'getProposal(uint256)',
+  'getPurchaseAgreement(uint256)',
+  'getPurchaseAgreementSigners(address)',
+  'getUserInitiatedPurchaseArgument(address,uint256)',
+  'getUserListings(address)',
+  'initiatePurchaseAgreement(uint256,address,address[])',
+  'proposeBuy(uint256,uint256)',
+  'queListingForApproval(string,bytes32,address)',
+  'signPurchaseAgreement(uint256)'
+]
+Trade deployed: 0x8D86F3E2C31dA681F5872034450cEC6646EDc3bf
+[
+  'buyNFTTokenShares(uint256,uint8)',
+  'calculateTokenValueInShares(uint8,uint256)',
+  'checkStake(address)',
+  'getMarket()',
+  'getUserByAddress(address)',
+  'isUserRegistered(address)',
+  'registerUser(string,string,bool)',
+  'sellNFTTokenShares(uint256,uint8)',
+  'stake(uint256)',
+  'withdrawStake(uint256)'
+]
+Deployed Dao to  0x33d30dc6BF32862A38000551e224a7887879ADBd
+
+Diamond Cut: [
+  {
+    facetAddress: '0xfAce9c66861b2255357a7DA6eF499Ee56439ce45',
+    action: 0,
+    functionSelectors: [
+      '0xcdffacc6',
+      '0x52ef6b2c',
+      '0xadfca15e',
+      '0x7a0ed627',
+      '0x01ffc9a7'
+    ]
+  },
+  {
+    facetAddress: '0x8b9af1a43020FDFF874DD21C816d4da17cAc0f58',
+    action: 0,
+    functionSelectors: [ '0x8da5cb5b', '0xf2fde38b' ]
+  },
+  {
+    facetAddress: '0x23Bf83329B193E68cE2Aad03af199c549fa3Ce2a',
+    action: 0,
+    functionSelectors: [
+      '0xef9a2d6c', '0x496de38b',
+      '0xdd5f4ba0', '0xa12a16a1',
+      '0xfeb1824b', '0x0ce514f5',
+      '0x107a274a', '0xf1b2d6a3',
+      '0xc7f758a8', '0x6558bc59',
+      '0x3314d28f', '0x9f705e73',
+      '0xeb18a9d8', '0x297983c0',
+      '0x6ba4a92b', '0xdee29d13',
+      '0xbaf9c494'
+    ]
+  },
+  {
+    facetAddress: '0x8D86F3E2C31dA681F5872034450cEC6646EDc3bf',
+    action: 0,
+    functionSelectors: [
+      '0xfe542ddb', '0xe78b04f3',
+      '0x90d96d76', '0xf1be1679',
+      '0x69c212f6', '0x163f7522',
+      '0x181f51c6', '0xc9dd39ce',
+      '0xa694fc3a', '0x25d5971f'
+    ]
+  }
+]
+Diamond cut tx:  0x2b75f4ef66fe346ebf5d6320f732e15d2601a411cad77c1a6991816a82f66e0f
+Completed diamond cut
+
+-------------------------------------
+
+Diamond deployed at: 0x66A265247D09b0c40b4d516686ee02f02E7b6C91
