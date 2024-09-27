@@ -46,7 +46,7 @@ ONCHAINHUB offers users enhanced flexibility in trading various property indices
 
 The schema includes fields for ERC20 and ERC721 tokens, which serve as our payment and trading mechanisms respectively. The ERC20 token is essential for tokenizing the system, requiring users to possess this token to participate in governance. On the other hand, the ERC721 token represents the NFT, as previously mentioned, which facilitates the conversion of listed real estate into NFTs. This allows users the flexibility to trade these NFTs, and due to the nature of ERC721,  users can  buy and sell shares of a single real estate NFT.
 
-lt, each DAO must be registered specifically for each state and region. This necessity arises because different states have their own unique land and property regulations. By having separate DAOs for different states, COiTON can accommodate the varied requirements of listed properties from different regions, ensuring a flexible and secure platform.
+lt, each DAO must be registered specifically for each state and region. This necessity arises because different states have their own unique land and property regulations. By having separate DAOs for different states, ONCHAINHUB can accommodate the varied requirements of listed properties from different regions, ensuring a flexible and secure platform.
 
 
 
