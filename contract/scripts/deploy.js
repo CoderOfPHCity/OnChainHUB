@@ -8,7 +8,7 @@ async function deployDiamond() {
 
   const ACCOUNT = new ethers.Wallet(process.env.PRIVATE_KEY).address;
 
-  // deploy DiamondCutFacet
+  // deploy DiamondCutFacets
   const DiamondCutFacet = await ethers.getContractFactory("DiamondCutFacet");
   const diamondCutFacet = await DiamondCutFacet.deploy();
   await diamondCutFacet.deployed();

@@ -31,7 +31,7 @@ contract DiamondDeployer is Test, IDiamondCut {
     address C = 0x107Ff7900F4dA6BFa4eB41dBD6f2953ffb41b2B1;
     address D = 0x107Ff7900F4dA6BFa4eB41dBD6f2953ffb41b2B1;
 
-    address[] mockSigners = [address(0xC), address(0xD)]; // Mock signer addresses
+    address[] mockSigners = [address(0xC), address(0xD)]; // Mocks signer addresses
     address[] emptySigners = new address[](0);
 
     RealEstate boundEstate;
